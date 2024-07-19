@@ -1,0 +1,136 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.header button:hover {
+  color: #000;
+}
+
+/* Filter Bar */
+.filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar select, .filter-bar button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.filter-bar button {
+  margin-left: 10px;
+  background-color: #f0f0f0;
+}
+
+.filter-bar button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Source and Target Columns */
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  width: 48%;
+}
+
+.column h2 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.column .item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column .item.modified {
+  background-color: #fff5cc;
+}
+
+.column .item input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* User-made Changes */
+.changes {
+  background-color: #fff5cc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.changes h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Save Button */
+.save-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.save-button svg {
+  margin-right: 10px;
+}
